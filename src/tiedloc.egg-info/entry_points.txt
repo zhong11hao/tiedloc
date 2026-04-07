@@ -1,0 +1,2 @@
+[console_scripts]
+tiedloc = tiedloc.main:main

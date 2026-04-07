@@ -1,0 +1,32 @@
+{
+    "CPS": {
+        "name": "Barabasi Albert Scale-Free Network",
+        "num_of_nodes": 20,
+        "new_node_to_existing_nodes": 2
+    },
+    "failure_model": {
+        "name": "Watts cascade",
+        "phi": 0.3,
+        "fail_speed": 1.0,
+        "initial_failures": 2
+    },
+    "simulation_param": {
+        "seed": 99,
+        "replications": 10,
+        "processors": 1,
+        "simulation_length": 50
+    },
+    "response_protocol": {
+        "name": "activity",
+        "frequency": 1.0,
+        "auxiliary": false
+    },
+    "service_team": {
+        "name": "regular graph",
+        "team_members": 4,
+        "team_degree": 2,
+        "agent_travel_speed": 1.0,
+        "repairing_time": 2.0,
+        "initial_allocation": "Centrality"
+    }
+}
